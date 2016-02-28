@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+{% load markdown_deux_tags %}
+{% block content %}
+<h1>Entradas</h1>
+<hr>
+{% for e in p %}
+<h3>{{ e.title }}<small> - publicado: {{ e.p_date }}</small></h3>
+<br>
+<div id="trunc">
+{{ e.body|markdown }}
+</div>
+<a href="{% url 'blog.views.articulo' pk=e.pk %}">Leer mas...</a>
+<hr>
+{% endfor %}
+{% endblock content %}

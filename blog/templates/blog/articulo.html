@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% load markdown_deux_tags %}
+{% block content %}
+<h1>{{ p.title }}<small> - publicado: {{ p.p_date }}</small></h1>
+<hr>
+<p>
+  {{ p.body|markdown }}
+</p>
+
+<iframe width="560" height="315" src="{{ p.youvid }}" frameborder="0" allowfullscreen></iframe>
+
+{% endblock content %}

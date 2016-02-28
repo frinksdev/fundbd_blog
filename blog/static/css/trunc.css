@@ -1,0 +1,12 @@
+#trunc{
+  width: 70%;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30%;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}

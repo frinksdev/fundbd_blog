@@ -1,0 +1,53 @@
+{% extends 'blog/base.html' %}
+{% load staticfiles %}
+{% block content %}
+<h1>Integrantes</h1>
+<hr>
+<div class="content">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="{% static 'img/frink.jpg' %}" alt="...">
+      <div class="caption">
+        <h3>Juan Francisco Gonzalez Ortega</h3>
+        <p>n.control: 14230901</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="{% static 'img/dani.jpg' %}" alt="...">
+      <div class="caption">
+        <h3>Karla Daniela Najera Ramirez</h3>
+        <p>n.control: 14230915</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="{% static 'img/jez.jpg' %}" alt="...">
+      <div class="caption">
+        <h3>Jezreel Baxin Piñon</h3>
+        <p>n.control: 14230878</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="{% static 'img/gera.jpg' %}" alt="...">
+      <div class="caption">
+        <h3>Gerardo Huerta Gonzalez</h3>
+        <p>n.control: 15231182</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="{% static 'img/carlos.jpg' %}" alt="...">
+      <div class="caption">
+        <h3>Carlos Ignacio Gomez de la Ronda</h3>
+        <p>n.control: 14230898</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

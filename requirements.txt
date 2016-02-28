@@ -1,0 +1,16 @@
+dj-database-url==0.4.0
+Django==1.9
+django-markdown==0.8.4
+django-markdown-deux==1.0.5
+Flask==0.10.1
+Flask-WTF==0.12
+gunicorn==19.4.5
+itsdangerous==0.24
+Jinja2==2.8
+Markdown==2.6.5
+markdown2==2.3.0
+MarkupSafe==0.23
+Werkzeug==0.11.3
+whitenoise==2.0.6
+WTForms==2.1
+psycopg2==2.5.4
